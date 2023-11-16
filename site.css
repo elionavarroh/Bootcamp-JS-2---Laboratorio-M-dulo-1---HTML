@@ -10,15 +10,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-footer {
-  font-size: 16px;
-  color: white;
-  background-color: grey;
-  padding-top: 56px;
-  padding-bottom: 16px;
-  justify-content: space-between;
-}
-
 nav {
   padding-top: 16px;
   padding-bottom: 16px;
@@ -60,6 +51,17 @@ nav {
   max-width: fit-content;
 }
 
-.image-1 {
-    border-radius: 25px;
+footer {
+    color: white;
+    background-color:grey;
+    padding-top: 56px;
+    padding-bottom: 16px;
+    justify-content: space-between;
+    margin-left: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+}
+
+img {
+    border-radius: 5%;
 }
