@@ -1,35 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 footer {
-    font-size: 16px;
-    background-color: black;
+  font-size: 16px;
+  color: white;
+  background-color: grey;
+  padding-top: 56px;
+  padding-bottom: 16px;
+  justify-content: space-between;
 }
 
-navbar {
-    background-color: white;
-}
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 20px;
-}
-
-.grid-item {
-    background-color: grey;
-    padding: 32px;
-    font-size: 14px;
-    text-align: column;
-    justify-content: center;
-    max-width: 1280px;
+nav {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: white;
+  border-bottom-style: groove;
+  position: sticky;
+  top: 20px;
 }
 
+.flex {
+  display: flex;
+}
+
+.space-x-4 > * {
+  margin-left: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+}
+
+.m-16 {
+  margin: 16px;
+}
+
+.flex-row {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.basis-30 {
+  flex: 30%;
+}
+
+.card {
+  margin: auto;
+  max-width: fit-content;
+}
+
+.image-1 {
+    border-radius: 25px;
+}
